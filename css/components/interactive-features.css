@@ -1,0 +1,86 @@
+/* BUTTONS: ------------------------------------------ */
+.buttons{
+    box-sizing: border-box;
+    position: relative;
+}
+
+.btn{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    transition: .2s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.btn:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn--CTA{
+    color: #FFF;
+    background: #141414;
+}
+
+.btn--CTA:hover{
+    color: #FFF;
+    background: #444242;
+}
+
+.btn--primary{
+    color: #FFF;
+    background: #667368;
+}
+
+.btn--primary:hover{
+    color: #FFF;
+    background: #86a18a;
+}
+
+.btn--secondary{
+    background: #D9C2A7;
+}
+
+.btn--secondary:hover{
+    background: #f5d4ae;
+}
+
+.btn--lg{
+    padding: 25px 40px;
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 290px;
+}
+
+.btn--md{
+    padding: 25px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 185px;
+}
+
+.btn--sm{
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 160px;
+}
+/* --------------------------------------------------- */
+
+
+
+
+/* PRODUCT IMAGE: ------------------------------------ */
+.product__image{
+    border: 1px solid transparent;
+    transition: .2s ease-in-out;
+    margin-right: 30px;
+}
+
+.product__image:hover{
+    border: 1px solid #667368;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+/* --------------------------------------------------- */

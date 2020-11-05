@@ -16,12 +16,6 @@ body, html{
     box-sizing: border-box;
 }
 
-.container, .row{
-    margin:0;
-    padding: 0;
-    height: 100%;
-}
-
 .main{
     margin-left: 400px;
     padding-left: 100px;
@@ -64,6 +58,10 @@ body, html{
     text-transform: uppercase;
 }
 /* --------------------------------------------------- */
+
+
+
+
 /* SECTION: ------------------------------------------ */
 .section__img{
     MAX-width: 800px;
@@ -71,5 +69,30 @@ body, html{
 
 .section__img--logo{
     MAX-width: 400px;
+}
+/* --------------------------------------------------- */
+
+
+
+
+/* LAYOUT SECTION: ----------------------------------- */
+.layout__image{
+    box-shadow: 0px 5px 20px rgba(76, 140, 236, 0.15);
+    
+}
+
+.layout__image--mobile{
+    width: 200px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.layout__image--tablet{
+    width: 603px;
+    margin-bottom: 50px;
+}
+
+.layout__image--desktop{
+    width: 860px;
 }
 /* --------------------------------------------------- */
