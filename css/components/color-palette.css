@@ -1,0 +1,39 @@
+.color-palette{
+    display: flex;
+    flex-direction: row;
+}
+
+.color-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.color-box{
+    height: 200px;
+    width: 200px;
+}
+
+.color-container:last-child{
+    margin: 0;
+}
+
+.primary-color{
+    background: #667368;
+}
+
+.secondary-color{
+    background: #D9C2A7;
+}
+
+.cta-color{
+    background: #141414;
+}
+
+.extra-color{
+    background: #FFF1E3;
+}
+
+.color-content{
+    padding: 10px;
+}
