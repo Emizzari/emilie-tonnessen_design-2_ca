@@ -1,0 +1,75 @@
+body, html,
+nav, footer, main, header,
+section, div, article,
+h1, h2, h3, h4, h5, h6
+p, span, i, a,
+form, ul, li,
+input, textarea{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container, .row{
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+
+.main{
+    margin-left: 400px;
+    padding-left: 100px;
+    height: 100%;
+    position: relative;
+}
+
+.section{
+    padding: 200px 0px;
+    margin: 0;
+}
+
+.header{
+    padding-bottom: 200px;
+    padding-top: 100px; 
+}
+
+.section:last-child{
+    padding-bottom: 650px;
+}
+
+.section__text,
+.intro__text{
+    max-width: 800px;
+}
+
+.section__text--short{
+    max-width: 400px;
+    padding-bottom: 0 !important;
+}
+
+/* HEADER + INTRO: ----------------------------------- */
+.header__headline{
+    font-size: 45px;
+}
+
+.intro__title,
+.section__title{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/* --------------------------------------------------- */
+/* SECTION: ------------------------------------------ */
+.section__img{
+    MAX-width: 800px;
+}
+
+.section__img--logo{
+    MAX-width: 400px;
+}
+/* --------------------------------------------------- */
