@@ -70,6 +70,14 @@ body, html{
 .section__img--logo{
     MAX-width: 400px;
 }
+
+.sub-section{
+    padding-bottom: 40px;
+}
+
+.sub-section__title{
+    padding-bottom: 10px;
+}
 /* --------------------------------------------------- */
 
 

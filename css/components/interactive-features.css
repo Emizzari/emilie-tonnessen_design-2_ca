@@ -43,7 +43,7 @@
 }
 
 .btn--secondary:hover{
-    background: #f5d4ae;
+    background: #ffeeda;
 }
 
 .btn--lg{
@@ -83,4 +83,140 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
+/* --------------------------------------------------- */
+
+
+
+
+/* LINKS: -------------------------------------------- */
+.link{
+    color:  #667368;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+    margin-bottom: 10px;
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color:  #667368;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link--footer{
+    color: #D9C2A7;
+    text-decoration: underline;
+    background: #667368;
+    padding: 20px;
+    width: 100px;
+}
+
+.link--footer:hover{
+    color:  #D9C2A7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link--navigation{
+    text-decoration: none;
+    
+}
+
+.link--navigation:hover{
+    text-decoration: underline;
+}
+/* --------------------------------------------------- */
+
+
+
+
+/* ICONS: -------------------------------------------- */
+.icons i{
+    font-size: 80px;
+    margin-right: 40px;
+}
+
+.icons i:last-child{
+    margin: 0;
+}
+
+.icons__nav i{
+    margin-bottom: 40px;
+    color: #667368;
+}
+
+.icons__nav i:hover{
+    cursor: pointer;
+    color: #86a18a;
+}
+
+.icons__footer{
+    background: #667368;
+    padding: 40px;
+    max-width: 330px;
+    color: #D9C2A7;
+}
+
+.icons__footer i:hover{
+    color: #ffeeda;
+    cursor: pointer;
+}
+/* --------------------------------------------------- */
+
+
+
+
+/* SEARCH: ------------------------------------------- */
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.search input{
+    height: 30px;
+    width: 300px;
+    border-radius: 0;
+    border: 1px solid transparent;
+    background:#FFF1E3;
+    outline: 1px solid #FFF1E3;
+    padding: 5px;
+}
+
+.search-btn{
+    background: #667368;
+    line-height: 30px;
+    width: 55px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    outline: 1px solid #667368;
+    padding: 5px 0;
+}
+
+.search-btn:hover{
+    background: #86a18a;
+    cursor: pointer;
+    outline: 1px solid #86a18a;
+}
+
+.search input:focus{
+    outline: 1px solid #667368;
+}
+
+.search i{
+    line-height: 30px;
+}
+/* --------------------------------------------------- */
+
+
+
+
+/* CHECKBOX: ----------------------------------------- */
+#checkbox:before{
+    width: 50px;
+}
+
+
 /* --------------------------------------------------- */
