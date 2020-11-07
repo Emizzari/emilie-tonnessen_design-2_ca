@@ -1,0 +1,128 @@
+.forms{
+    border: 1px solid black;
+    padding: 30px;
+    max-width: 800px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    font-family: montserrat, sans-serif;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.form--standard{
+    margin: 0;
+}
+
+.form--error{
+    margin: 0;
+}
+
+.form__section{
+    margin-bottom: 30px;
+}
+
+.form__section:last-child{
+    margin-bottom: 0px;
+}
+
+.form__section--column{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__section--row{
+    display: flex;
+    flex-direction: row;
+}
+
+.form__label{
+   font-size: 16px;
+   text-transform: capitalize;
+}
+
+.form__input__text,
+.form__textarea,
+.form__input__number,
+.form__input__password,
+.form__input__disabled,
+.form__input__date,
+.form__input__time,
+.form__select,
+.form__select__option{
+    height: 30px;
+    border-radius: 0;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.form__input__text:focus,
+.form__textarea:focus,
+.form__input__number:focus,
+.form__input__password:focus,
+.form__input__date:focus,
+.form__input__time:focus,
+.form__select:focus{
+    outline: 1px solid transparent;
+    border: 1px solid #667368;
+    box-shadow:  5px 5px 8px rgba(0, 0, 0, .1);
+}
+
+.form__textarea{
+    height: 250px;
+    font-family: monterrat, sans-serif;
+}
+
+.form__button__submit{
+    width: 150px;
+    background:  #667368;
+    border: 0;
+    padding: 15px 20px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s ease-in-out;
+}
+
+.form__button__submit:hover{
+    background: #86a18a;
+    cursor: pointer;
+}
+
+.form__success{
+    background: #86a18a56;
+    padding: 10px;
+}
+
+
+
+/* ERROR: -------------------------------------------- */
+.error-message{
+    background: rgba(209, 20, 20, 0.212);
+    color:  rgb(133, 0, 0);
+    padding: 10px;
+    font-weight: 400;
+}
+
+.error-message i{
+    color: darkred;
+    font-size: 20px;
+}
+
+.error-message p{
+    margin: 0;
+}
+
+.error-input{
+    border: 2px solid darkred;
+}
+
+.error-input:focus{
+    border: 2px solid darkred;
+}
+/* --------------------------------------------------- */
