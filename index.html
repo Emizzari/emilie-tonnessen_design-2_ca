@@ -63,7 +63,6 @@
     <!-- Main Content: --> -->
     <main class="main">
 
-
         <!-- Header: -->
         <header class="header" id="introduction">
             <h1 class="header__headline">
@@ -78,7 +77,6 @@
             </div>
         </header>
 
-
         <!-- Sections: -->
         <section class="section" id="brand-personality">
             <h2 class="section__title">
@@ -92,7 +90,6 @@
             <img src="./images/personality.jpg" alt="Section Image" class="section__img">
         </section>
         
-        
         <section class="section" id="target-audience">
             <h2 class="section__title">
                 Target Audience
@@ -103,7 +100,6 @@
             </p>
             <img src="./images/audience.jpg" alt="Section Image" class="section__img">
         </section>
-
 
         <section class="section" id="color">
             <h2 class="section__title">
@@ -176,7 +172,6 @@
             </div>
         </section>
 
-
         <section class="section" id="logo">
             <h2 class="section__title">
                 Logo
@@ -204,7 +199,6 @@
             
             <img src="./images/logo-size.png" alt="Section Image" class="section__img">
         </section>
-        
         
         <section class="section typography" id="typography">
             <h2 class="section__title">
@@ -252,8 +246,6 @@
             </p>
         </section>
         
-        
-        
         <section class="section layout" id="layout">
             <h2 class="section__title">
                 Layout
@@ -275,7 +267,6 @@
             
             <img src="./images/layout-desktop.png" alt="Layout for Desktop" class=" layout__image layout__image--desktop">
         </section>
-        
         
         <section class="section" id="interactive-features">
             <h2 class="section__title">
@@ -336,7 +327,7 @@
                     Search
                 </h3>
                 <div class="search">
-                    <input type="text">
+                    <input type="text" class="form__input__text">
                     <div class="search-btn">
                         <i class="far fa-search"></i>
                     </div>
@@ -344,65 +335,373 @@
             </div>
         </section>
         
-        
-        
-        
-        
         <section class="section" id="form-elements">
             <h2 class="section__title">
                 Form Elements
             </h2>
-            <p class="section__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate maxime ea, dolores quam quod nostrum
-                animi laborum beatae molestias excepturi sit dolorem blanditiis vitae doloremque consequatur veniam tempora
-                numquam?
-            </p>
-            <img src="#" alt="Section Image" class="section__img">
+            <div class="forms">
+                <form action="" class="form">
+                    <!-- Standard Form Version: -->
+                    <div class="form--standard">
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Text Input
+                            </label>
+                            <input type="text" class="form__input__text" placeholder="Placeholder">
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Email Input
+                            </label>
+                            <input placeholder="Placeholder" type="text" class="form__input__text">
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Textarea
+                            </label>
+                            <textarea placeholder="Placeholder" class="form__textarea" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Number input
+                            </label>
+                            <input placeholder="123456789" type="number" class="form__input__number">
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Password input
+                            </label>
+                            <input placeholder="******" type="password" class="form__input__password">
+                        
+                        </div>
+                        
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Disabled Input
+                            </label>
+                            <input type="text" class="form__input__text form__input__text--disabled" value="Disabled" disabled
+                                class="g-wide--full">
+                        </div>
+
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Radio Input
+                            </label>
+                            <input type="radio" class="form__input__radio">
+                        </div>
+                        
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Checkbox input
+                            </label>
+                            <input type="checkbox" class="form__input__checkbox">
+                        </div>
+                        
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Date input
+                            </label>
+                            <input type="date" class="form__input__date">
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Time input
+                            </label>
+                            <input type="time" class="form__input__time">
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                File input
+                            </label>
+                            <input type="file" class="form__input__file">
+                        </div>
+                        
+                       
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Select Field
+                            </label>
+                            <select class="form__select">
+                                <option class="form__select__option" value="1">Option 1</option>
+                                <option class="form__select__option" value="2">Option 2</option>
+                            </select>
+                        </div>
+
+                        <div class="form__section form__section--column">
+                            <label class="form__label" for="">Submit Button</label>
+                            <button type="submit" class="form__button__submit">Submit</button>
+                        </div>
+
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Succesfull Feedback
+                            </label>
+                            <p class="form__success">
+                                Thank you for your message! We will be in contact shortly!
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    <!-- ERROR VERSION: -->
+                    <div class="form--error">
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Input
+                            </label>
+                            <input type="text" class="error-input form__input__text" placeholder="Placeholder">
+                            <div class="error-message">
+                                <p>
+                                <i class="far fa-exclamation-triangle"></i>
+                                Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Email Input
+                            </label>
+                            <input type="text" class="error-input form__input__text">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Textarea
+                            </label>
+                            <textarea class="form__textarea error-input" cols="30" rows="10"></textarea>
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Radio Input
+                            </label>
+                            <input class="error-input form__input__radio" type="radio">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Checkbox input
+                            </label>
+                            <input class="error-input form__input__checkbox" type="checkbox">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Date input
+                            </label>
+                            <input class="error-input form__input__date" type="date">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Time input
+                            </label>
+                            <input class="error-input form__input__time" type="time">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                File
+                            </label>
+                            <input class="error-input form__input__file" type="file">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Number input
+                            </label>
+                            <input placeholder="123456789" type="number" class="form__input__number error-input">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Password
+                            </label>
+                            <input placeholder="*****" type="password" class="error-input form__input__password">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Disabled
+                            </label>
+                            <input type="text" class="form__input__text form__input__text--disabled error-input" value="Disabled" disabled class="g-wide--full">
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form__section form__section--column">
+                            <label for="" class="form__label">
+                                Select Field
+                            </label>
+                            <select class="form__select error-input">
+                                <option class="form__select__option" value="1">Option 1</option>
+                                <option class="form__select__option" value="2">Option 2</option>
+                            </select>
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Something went wrong, please try again.</p>
+                            </div>
+                        </div>
+                        
+
+                        <div class="form__section">
+                            <label for="" class="form__label">Error Feedback</label>
+                            <div class="error-message">
+                                <p>
+                                    <i class="far fa-exclamation-triangle"></i>
+                                    Please make sure everything is filled out correctly
+                                </p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </form>
+            </div>
         </section>
-        
         
         <section class="section" id="graphics">
             <h2 class="section__title">
                 Graphics
             </h2>
             <p class="section__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate maxime ea, dolores quam quod nostrum
-                animi laborum beatae molestias excepturi sit dolorem blanditiis vitae doloremque consequatur veniam tempora
-                numquam?
+                These are the types of images that should be used. The background is light and simple with room for content to breath on top of it. The images are warm and welcoming with details that will engage the user to buy the products being displayed.
             </p>
-            <img src="#" alt="Section Image" class="section__img">
+            <div class="sub-section">
+                <h3>Background Pattern</h3>
+                <img src="./images/background.png" class="section__img" alt="Background Pattern">
+            </div>
+            <div class="sub-section">
+                <h3>Gallery</h3>
+                <div class="gallery">
+                    <img src="./images/1.jpg" alt="" class="">
+                    <img src="./images/2.jpg" alt="" class="">
+                    <img src="./images/3.jpg" alt="" class="">
+                    <img src="./images/4.jpg" alt="" class="">
+                    <img src="./images/5.jpg" alt="" class="">
+                    <img src="./images/6.jpg" alt="" class="">
+                    <img src="./images/7.jpg" alt="" class="">
+                    <img src="./images/8.jpg" alt="" class="">
+                    <img src="./images/9.jpg" alt="" class="">
+                </div>
+                
+            </div>
         </section>
-        
         
         <section class="section" id="content-areas">
             <h2 class="section__title">
                 Content Areas
             </h2>
-            <p class="section__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate maxime ea, dolores quam quod nostrum
-                animi laborum beatae molestias excepturi sit dolorem blanditiis vitae doloremque consequatur veniam tempora
-                numquam?
-            </p>
-            <img src="#" alt="Section Image" class="section__img">
+            <div class="sub-section">
+                <h3>Product Card</h3>
+                <div class="product-card">
+                    <img src="./images/product-placeholder.png" alt="" class="product-img">
+                    <div class="product-content">
+                        <h4 class="product-title">Product Name</h4>
+                        <p class="product-price">299 NOK</p>
+                        <p class="product-desc">
+                            This is a short description.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="sub-section">
+                <h3>News Area</h3>
+                <div class="news-container">
+                    <h2>NEWS!</h2>
+                </div>
+            </div>
+            
         </section>
-        
         
         <section class="section" id="dos-and-donts">
             <h2 class="section__title">
                 Dos and Don'ts
             </h2>
-            <p class="section__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate maxime ea, dolores quam quod nostrum
-                animi laborum beatae molestias excepturi sit dolorem blanditiis vitae doloremque consequatur veniam tempora
-                numquam?
-            </p>
-            <img src="#" alt="Section Image" class="section__img">
+            <div class="sub-section">
+                <h3>Dos</h3>
+                <ul class="list">
+                    <li class="list-item">Have good whitespace with sufficient breathing room</li>
+                    <li class="list-item">Have a clear statement in the news content</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3>Don'ts</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        Do not have content overlapping
+                    </li>
+                    <li class="list-item">
+                        Do not have the logo on top of a dark background
+                    </li>
+                </ul>
+            </div>
         </section>
-        
-        
-        
-
-
 
     </main>
 
