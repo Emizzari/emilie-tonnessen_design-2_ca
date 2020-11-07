@@ -7,7 +7,7 @@ function onScroll() {
         }
     }
 
-    var anchors = document.querySelectorAll('.nav__menu a');
+    var anchors = document.querySelectorAll('.nav__link');
     var previousRefElement = null;
 
     for (var i = 0; i < anchors.length; ++i) {
