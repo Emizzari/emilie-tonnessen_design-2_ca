@@ -1,0 +1,52 @@
+/* PRODUCT CARD: ------------------------------------- */
+.product-card{
+    margin: 0;
+}
+
+.product-img{
+    width: 270px;
+    margin: 0;
+}
+
+.product-content{
+    padding: 10px;
+    background: rgb(240, 240, 240);
+    max-width: 250px !important;
+}
+
+.product-title{
+    padding-bottom: 10px;
+    font-family: conglomerate, serif;
+}
+
+.product-price{
+    margin: 0;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.product-desc{
+    margin: 0;
+}
+/* --------------------------------------------------- */
+
+
+
+
+/* NEWS AREA: ---------------------------------------- */
+.news-container{
+    background: url("../../images/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+}
+
+.news-container h2{
+    padding: 100px;
+    width: 800px;
+    font-family: conglomerate, serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+/* --------------------------------------------------- */
